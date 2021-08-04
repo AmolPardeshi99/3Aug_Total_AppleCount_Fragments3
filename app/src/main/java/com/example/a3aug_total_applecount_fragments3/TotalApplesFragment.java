@@ -47,7 +47,7 @@ public class TotalApplesFragment extends Fragment {
         mBtnNext = view.findViewById(R.id.btnNext);
 
         if (getArguments()!= null){
-            mTvAppleAvailable.setText("Total Available Apples after buying are - "+getArguments().getString("ApplesAfterBuying"));
+            mTvAppleAvailable.setText("Total Apples after buying are - "+getArguments().getString("ApplesAfterBuying"));
         }
         mBtnNext.setOnClickListener(new View.OnClickListener() {
             @Override
